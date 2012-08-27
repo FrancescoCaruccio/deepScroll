@@ -23,6 +23,13 @@ $('a').deepScroll({
 	animSpeed:	'fast'
 });
 
+The plugin works by associating the rel = "name" to the name of the element to be reached.
+For example:
+
+Anchor link: <p rel="test"> Text </ p>
+
+Element to achieve: <div name="test"> ... </ div>
+
 
 
 
@@ -38,3 +45,10 @@ Puoi settare la velocità dell'animazione dello scroll in questo modo:
 $('a').deepScroll({
 	animSpeed:	'fast'
 });
+
+Il plugin lavora associando il rel=”name” al name dell'elemento da raggiungere.
+Per esempio:
+
+Anchor link: <p rel=”test”>Text</p>
+
+Elemento da raggiungere: <div name=”test”>...</div>
