@@ -8,6 +8,10 @@
  * Requires: jQuery v1.7.1 or later
  */
 
+
+
+
+[ English ]
 To use the plugin, run the function deepScroll ().
 For example:
 
@@ -21,7 +25,8 @@ $('a').deepScroll({
 
 
 
-Italiano:
+
+[ Italiano ]
 
 Per usare il plugin, lancia la funzione deepScroll().
 Per esempio:
