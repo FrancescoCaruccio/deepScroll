@@ -19,3 +19,17 @@ $('a').deepScroll({
 	animSpeed:	'fast'
 });
 
+
+
+Italiano:
+
+Per usare il plugin, lancia la funzione deepScroll().
+Per esempio:
+
+$('a').deepScroll();
+
+Puoi settare la velocità dell'animazione dello scroll in questo modo:
+
+$('a').deepScroll({
+	animSpeed:	'fast'
+});
