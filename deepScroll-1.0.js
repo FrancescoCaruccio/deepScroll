@@ -20,7 +20,7 @@
             if($this.hasClass('deepScroll')){
                 if($this.attr('rel') && jQuery('[name='+nomeElementoDaRaggiungere+']') != null){
                     var offsetElementoDaRaggiungere = jQuery('[name='+nomeElementoDaRaggiungere+']').offset().top;
-                    jQuery('html').animate({
+                    jQuery('html,body').animate({
                         scrollTop:  offsetElementoDaRaggiungere
                     }, jQuery.fn.deepScroll.defaults.animSpeed);
                     if($this.is('a')){
