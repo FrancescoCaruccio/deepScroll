@@ -10,35 +10,42 @@
 
 
 
-
+==================================================
 [ English ]
-To use the plugin, run the function deepScroll ().
+==================================================
+
+To use the plugin, run the function deepScroll() in your js file or into <script> tags.
 For example:
 
-$('a'). deepScroll();
+<script type="text/javascript">
+    $('a').deepScroll();
+</script>
 
 you can set the speed of the scroll so:
 
-$('a').deepScroll({
+$('a.deepScroll').deepScroll({
 	animSpeed:	'fast'
 });
 
 The plugin works by associating the rel = "name" to the name of the element to be reached.
 For example:
 
-Anchor link: <p rel="test"> Text </ p>
+Anchor link: <p rel="test" class="deepScroll"> Text </ p>
 
 Element to achieve: <div name="test"> ... </ div>
 
 
 
-
+==================================================
 [ Italiano ]
+==================================================
 
-Per usare il plugin, lancia la funzione deepScroll().
+Per usare il plugin, lancia la funzione deepScroll() nel tuo file javascript o tra i tag <script>.
 Per esempio:
 
-$('a').deepScroll();
+<script type="text/javascript">
+    $('a.deepScroll').deepScroll();
+</script>
 
 Puoi settare la velocità dell'animazione dello scroll in questo modo:
 
@@ -46,9 +53,10 @@ $('a').deepScroll({
 	animSpeed:	'fast'
 });
 
-Il plugin lavora associando il rel=”name” al name dell'elemento da raggiungere.
+
+Il plugin lavora associando il rel="name" al name dell'elemento da raggiungere.
 Per esempio:
 
-Anchor link: <p rel=”test”>Text</p>
+Anchor link: <p rel="test" class="deepScroll">Text</p>
 
-Elemento da raggiungere: <div name=”test”>...</div>
+Elemento da raggiungere: <div name="test">...</div>
