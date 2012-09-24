@@ -27,12 +27,12 @@ $('a.deepScroll').deepScroll({
 	animSpeed:	'fast'
 });
 
-The plugin works by associating the rel = "name" to the name of the element to be reached.
+The plugin works by associating the rel = "id" to the id of the element to be reached.
 For example:
 
 Anchor link: <p rel="test" class="deepScroll"> Text </ p>
 
-Element to achieve: <div name="test"> ... </ div>
+Element to achieve: <div id="test"> ... </ div>
 
 
 
@@ -54,9 +54,9 @@ $('a').deepScroll({
 });
 
 
-Il plugin lavora associando il rel="name" al name dell'elemento da raggiungere.
+Il plugin lavora associando il rel="id" al id dell'elemento da raggiungere.
 Per esempio:
 
 Anchor link: <p rel="test" class="deepScroll">Text</p>
 
-Elemento da raggiungere: <div name="test">...</div>
+Elemento da raggiungere: <div id="test">...</div>
