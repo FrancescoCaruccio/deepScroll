@@ -18,8 +18,8 @@
             var $this = jQuery(this);
             var nomeElementoDaRaggiungere = $this.attr('rel');
             if($this.hasClass('deepScroll')){
-                if($this.attr('rel') && jQuery('[name='+nomeElementoDaRaggiungere+']') != null){
-                    var offsetElementoDaRaggiungere = jQuery('[name='+nomeElementoDaRaggiungere+']').offset().top;
+                if($this.attr('rel') && jQuery('[id='+nomeElementoDaRaggiungere+']') != null){
+                    var offsetElementoDaRaggiungere = jQuery('[id='+nomeElementoDaRaggiungere+']').offset().top;
                     jQuery('html,body').animate({
                         scrollTop:  offsetElementoDaRaggiungere
                     }, jQuery.fn.deepScroll.defaults.animSpeed);
